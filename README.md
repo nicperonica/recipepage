@@ -7,7 +7,7 @@ O que mais aprendi nesse rápido desafio foi responsividade. Ainda tenho muito a
 
 [Prints do Site (Desktop e Mobile)](https://imgur.com/a/HokpjUQ)
 
-Agradecimentos especiais ao [Bienhenri](https://github.com/biehenri) que está me ajudando nesse começo.
+Agradecimentos especiais ao [Biehenri](https://github.com/biehenri) que está me ajudando nesse começo.
 
 ###### O desafio está disponível no [Frontendmentor](https://www.frontendmentor.io/)
 
@@ -17,7 +17,7 @@ My first site with HTML and CSS. Started to study recently to get a job in the a
 
 What I learned most from this quick challenge was the responsive part. I still have a lot to improve, but for the first time I liked the result.
 
-Special thanks to [Bienhenri](https://github.com/biehenri) who is helping me with this beginning.
+Special thanks to [Biehenri](https://github.com/biehenri) who is helping me with this beginning.
 
 [Site Screenshots (Desktop and Mobile)](https://imgur.com/a/HokpjUQ)
 
