@@ -1,0 +1,234 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+}
+
+body h2, h1{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: lighter;
+}
+
+h1, p{
+    color: hsl(24, 5%, 18%);
+}
+
+hr{
+    border-top: 0.1px solid hsla(15, 4%, 18%, 0.293);
+}
+.bold{
+    font-weight:bolder;
+}
+
+/*Todo o conteudo do site, que se resume a receita, vai estar dentro da main ".recipe", que é o fundo branco. */
+.recipe{
+    background-color: white;
+    width: 600px;
+    margin: 90px auto 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Definir o tamanho e a borda da imagem */
+.recipe img {
+    width: 100%;
+    border-radius: 10px ;
+}
+
+.recipe__start{
+    color: hsl(24, 5%, 18%)
+}
+
+.recipe__start p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+/* =========================================================================================== */
+
+.recipe__preparation{
+    margin-top: 23px;
+    padding: 1px 0 0 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.recipe__preparation h2{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+.recipe__preparation ul{
+    font-size: 10px;
+    list-style-position: outside;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: hsl(332, 51%, 32%)
+}
+
+.recipe__preparation ul p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    padding: 0 0 0 15px;
+    color: hsl(30, 10%, 34%);
+}
+
+/* =========================================================================================== */
+
+.recipe__ingredients{
+    list-style-position: outside;
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 6px;
+}
+
+.recipe__ingredients li{
+    list-style: square outside;
+    padding-left: 20px;
+}
+
+.recipe__ingredients ul li p{
+    font-size: 18px;
+}
+
+.list__spacing{
+    padding-left: 20px;
+}
+
+/* =========================================================================================== */
+
+.recipe__instructions ol{
+    list-style: decimal;
+    font: 15px;
+}
+
+.recipe__instructions li{
+    padding-left: 20px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.recipe__instructions li p{
+    color: hsl(30, 10%, 34%);
+    font-weight: normal;
+}
+
+/* =========================================================================================== */
+
+.recipe__nutrition p{
+    font-size: 13px;
+}
+
+.recipe__nutrition__tabel{
+    margin-top: 35px;
+}
+
+.recipe__nutrition__tabel__line{
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe__nutrition__tabel__line li{
+    list-style: none;
+    margin-right: 220px;
+    font-size: 13px;
+    line-height: 0.5;
+    width: 20px;
+}
+
+.nutrition_column{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+@media (max-width: 700px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .recipe{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        border-radius: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .recipe img {
+        width: 100%;
+        border-radius: 0px ;
+    }
+
+    .recipe__start, .recipe__preparation{
+        width: 80%;
+    }
+
+    .recipe__start h1{
+        font-size: 50px;
+    }
+
+    .recipe__start p{
+        font-size: 25px;
+        font-weight: lighter;
+        color: hsla(15, 4%, 18%, 0.753);
+    }
+
+    .recipe__preparation h2{
+        font-size: 24px;
+    }
+
+    .recipe__preparation li{
+        font-size: 20px;
+    }
+
+    .recipe__preparation li p{
+        font-size: 22px;
+        width: 60%;
+    }
+
+    .recipe__ingredients, .recipe__instructions, .recipe__nutrition{
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .recipe__ingredients ul li p{
+        font-size: 24px;
+        color: hsla(15, 4%, 18%, 0.753);
+    }
+
+    .list__spacing li{
+        font-size: 12px;
+    }
+
+    .list__spacing li p{
+        font-size: 24px;
+    }
+
+    .recipe__instructions li{
+        font-size: 20px;
+    }
+
+    .recipe__nutrition__tabel__line li{
+        color: hsla(15, 4%, 18%, 0.753);
+        font-size: 24px;
+    }
+
+    .recipe__nutrition p{
+        font-size: 20px;
+        color: hsla(15, 4%, 18%, 0.753);;
+    }
+
+    .recipe__nutrition__tabel__line .nutrition_column{
+        color: hsl(14, 45%, 36%);
+    }
+}
